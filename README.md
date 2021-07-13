@@ -7,7 +7,7 @@ Collecting logs from one server and transferring them via Rsyslog to another
 3. Copy all file in one dirctory on you unix PC
 4. Use command `terraform init` to initialize a working directory containing Terraform configuration files
 5. Use command `terraform apply` to create VM's
-6. To check loging file go to /var/log/rsyslog/ip-192-168-0-239 and check file *time_log*
+6. To check loging file go to `/var/log/rsyslog/ip-192-168-0-239` and check file `time_log`
 
 # File list
 1. Provider.tf - info for provider
